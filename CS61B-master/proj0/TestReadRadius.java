@@ -31,7 +31,6 @@ public class TestReadRadius {
         double actualOutput = NBody.readRadius(planetsTxtPath);
         checkEquals(actualOutput, 2.50E11, "readRadius()", 0.01);
     }
-
     public static void main(String[] args) {
         checkReadRadius();
     }

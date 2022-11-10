@@ -6,13 +6,13 @@ public class TestReadRadius {
 
     /**
      *  Checks whether or not two Doubles are equal and prints the result.
-     *
-     *  @param  expected    Expected double
-     *  @param  actual      Double received
-     *  @param  label       Label for the 'test' case
-     *  @param  eps         Tolerance for the double comparison.
+     *  @param expected expected value
+     *  @param actual actual value
+     *  @param label Label for the 'test' case
+     *  @param eps Tolerance for the double comparison.
      */
-    private static void checkEquals(double actual, double expected, String label, double eps) {
+
+    private static void checkEquals(double expected, double actual, String label, double eps) {
         if (Math.abs(expected - actual) <= eps * Math.max(expected, actual)) {
             System.out.println("PASS: " + label + ": Expected " + expected + " and you gave " + actual);
         } else {
@@ -21,15 +21,16 @@ public class TestReadRadius {
     }
 
     /**
-     *  Checks the NBody.readRadius() method.
+     *  Checks the NBody.readRadius() method;
      */
     private static void checkReadRadius() {
         System.out.println("Checking readRadius...");
         String planetsTxtPath = "./data/planets.txt";
-        /* If the following line fails to compile, you probably need to make
-         * a certain method static! */
+        /**
+         *  apply Nbody.readRadius
+         */
         double actualOutput = NBody.readRadius(planetsTxtPath);
-        checkEquals(actualOutput, 2.50E11, "readRadius()", 0.01);
+        checkEquals(actualOutput, 2.50e11, "readRadius()", 0.01);
     }
 
     public static void main(String[] args) {
