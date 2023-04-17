@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f47403ef-a684-491b-84a8-6246a3ef1604" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flik/FilkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/2.3 2.4/.idea/2.3_DLLists and Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/2.5/2.5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/3.1/.idea/3.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/3.1/testing/.idea/testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/3.1/testing/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/3.1/testing/TestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/3.1/testing/out/production/testing/.idea/testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/.idea/4.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/IsADemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/List61B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/SLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/WordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture code/4.1/out/production/4.1/.idea/4.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../project/project1a/src/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../project/project1a/src/ArrayDeque1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../project/project1a/src/LinkedListDeque1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javalib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arithmetic/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arithmetic/ArithmeticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flik/Flik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flik/FlikTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flik/HorribleSteve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntList/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntList/IntListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../CS61B-master/lab3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/IntNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/SLList_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/SLList_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../CS61B-master/proj1a/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList$IntNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList_1$IntNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList_2$IntNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/2.2/out/production/2.2/SLList_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/TestSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/lecture7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/TestSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture7/out/production/lecture7/lecture7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/lecture8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/AList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/IsADemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/List61B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/SLList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/SLList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/out/production/lecture8/WoesUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/AList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/IsADemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/List61B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/lecture8/src/WoesUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/2.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/lecture7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture code/out/production/lecture code/out/production/lecture7/lecture7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/jh61b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/stdlib-package.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library-sp18/javalib/stdlib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/project1a/src/LinkedListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../project/project1a/src/LinkedListDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/project1a/src/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../project/project1a/src/LinkedListDequeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OYTrOiW1YX4HIZzQvX6AMwusiV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.FilkTest.testIsSameNumber">
+    <configuration name="ArithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArithmeticTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilkTest.testIsSameNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilkTest" />
+      <option name="METHOD_NAME" value="testIsSameNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntListTest.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntListTest" />
+      <option name="METHOD_NAME" value="testReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilkTest.testIsSameNumber" />
+        <item itemvalue="JUnit.IntListTest.testReverse" />
+        <item itemvalue="JUnit.ArithmeticTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f47403ef-a684-491b-84a8-6246a3ef1604" name="Changes" comment="" />
+      <created>1681736714164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681736714164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
