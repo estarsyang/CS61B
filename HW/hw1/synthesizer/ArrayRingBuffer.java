@@ -27,7 +27,7 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
         rb =(T[]) new Object[capacity];
         first =0;
         last = 0;
-        fillCount = 0;
+        this.fillCount = 0;
         this.capacity = capacity;
     }
 
@@ -43,7 +43,7 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
         }
         rb[last] = x;
         fillCount++;
-        last++;
+        last = (last + 1) % capacity;
     }
 
     /**
@@ -59,7 +59,8 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
         }
         T retValue = rb[first];
         fillCount--;
-        first++;
+        // when first will be equal to capacity, assign 0 to form a ring. such as last!
+        first = (first + 1) % capacity;
         return retValue;
     }
 
