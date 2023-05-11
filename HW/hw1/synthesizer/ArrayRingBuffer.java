@@ -1,5 +1,7 @@
 // TODO: Make sure to make this class a part of the synthesizer package
  package synthesizer;
+import org.junit.Test;
+
 import java.sql.Array;
 import java.util.Iterator;
 
@@ -26,6 +28,7 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
         first =0;
         last = 0;
         fillCount = 0;
+        this.capacity = capacity;
     }
 
     /**
@@ -35,6 +38,12 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
      */
     public void enqueue(T x) {
         // TODO: Enqueue the item. Don't forget to increase fillCount and update last.
+        if(isFull()){
+            throw new RuntimeException("Ring buffer overflow");
+        }
+        rb[last] = x;
+        fillCount++;
+        last++;
     }
 
     /**
@@ -42,8 +51,16 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
      * throw new RuntimeException("Ring buffer underflow"). Exceptions
      * covered Monday.
      */
+    @Override
     public T dequeue() {
-        // TODO: Dequeue the first item. Don't forget to decrease fillCount and update 
+        // TODO: Dequeue the first item. Don't forget to decrease fillCount and update
+        if (isEmpty()){
+            throw new RuntimeException("Ring buffer underflow");
+        }
+        T retValue = rb[first];
+        fillCount--;
+        first++;
+        return retValue;
     }
 
     /**
@@ -51,7 +68,45 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T>  {
      */
     public T peek() {
         // TODO: Return the first item. None of your instance variables should change.
+        return rb[first];
     }
 
     // TODO: When you get to part 5, implement the needed code to support iteration.
+
+    public class ArrayRingBufferIterator implements Iterator<T>{
+        private int ptr;
+        public ArrayRingBufferIterator(){
+            ptr = first;
+        }
+
+        public boolean hasNext(){
+            return ptr < fillCount;
+        }
+
+        public T next() {
+            T returnItem = rb[ptr];
+            ptr++;
+            return returnItem;
+        }
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new ArrayRingBufferIterator();
+    }
+    public static void testArrayRingBufferIterable(){
+        ArrayRingBuffer buffer = new ArrayRingBuffer(3);
+        while (!buffer.isFull()){
+            buffer.enqueue(Math.random());
+        }
+        // print is pass!
+        for (Object bf: buffer){
+            System.out.println(bf);
+        }
+    }
+
+    public static void main(String[] args) {
+        testArrayRingBufferIterable();
+    }
+
 }
