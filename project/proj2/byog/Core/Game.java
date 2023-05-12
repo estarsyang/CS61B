@@ -3,11 +3,39 @@ package byog.Core;
 import byog.TileEngine.TERenderer;
 import byog.TileEngine.TETile;
 
+import edu.princeton.cs.introcs.StdDraw;
+import java.awt.*;
+import java.util.Random;
+
+import static java.awt.event.KeyEvent.*;
+
 public class Game {
     TERenderer ter = new TERenderer();
     /* Feel free to change the width and height. */
     public static final int WIDTH = 80;
     public static final int HEIGHT = 30;
+
+
+    private static void drawMenu(){
+        StdDraw.clear(Color.BLACK);
+        StdDraw.setPenColor(Color.WHITE);
+        StdDraw.text(0.5, 0.6, "Wokki Game");
+        StdDraw.text(0.5, 0.5, "(N)ew Game");
+        StdDraw.text(0.5, 0.45, "(L)oad");
+        StdDraw.text(0.5, 0.4, "(Q)uit");
+        StdDraw.show();
+    }
+
+    private static void drawMenu(String seedString){
+        StdDraw.clear(Color.BLACK);
+        StdDraw.setPenColor(Color.WHITE);
+        StdDraw.text(0.5, 0.6, "Wokki Game");
+        StdDraw.text(0.5, 0.5, "(N)ew Game");
+        StdDraw.text(0.5, 0.45, "(L)oad");
+        StdDraw.text(0.5, 0.4, "(Q)uit");
+        StdDraw.text(0.5, 0.3, "Enter seed: " + seedString);
+        StdDraw.show();
+    }
 
     /**
      * Method used for playing a fresh game. The game should start from the main menu.
@@ -34,5 +62,10 @@ public class Game {
 
         TETile[][] finalWorldFrame = null;
         return finalWorldFrame;
+    }
+
+    public static void main(String[] args) {
+//        drawMenu();
+//        drawMenu("123");
     }
 }

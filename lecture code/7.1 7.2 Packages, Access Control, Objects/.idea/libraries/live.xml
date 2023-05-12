@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="live">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/live/out/artifacts/live_jar/live.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
