@@ -115,15 +115,12 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
     }
 
     private Set<K> keySetHelper(Node p, Set<K> ks) {
-        if (p != null){
-            ks.add(p.key);
+        if (p == null){
+            return null;
         }
-        if (p.left != null) {
-            keySetHelper(p.left,ks);
-        }
-        if (p.right != null) {
-            keySetHelper(p.right, ks);
-        }
+        ks.add(p.key);
+        keySetHelper(p.left,ks);
+        keySetHelper(p.right, ks);
         return ks;
     }
 
@@ -186,19 +183,19 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
             throw new IllegalArgumentException("calls remove() with a null key");
         }
         V value = get(key);
-        removeOpt(root, key);
+        removeOptHelper(root, key);
         return value;
     }
-    private Node removeOpt(Node p, K key) {
+    private Node removeOptHelper(Node p, K key) {
         if (root == null) {
             return null;
         }
         int cmp = key.compareTo(p.key);
         if (cmp < 0) {
-            p.left = removeOpt(p.left, key);
+            p.left = removeOptHelper(p.left, key);
             return p;
         } else if (cmp > 0) {
-            p.right = removeOpt(p.right, key);
+            p.right = removeOptHelper(p.right, key);
             return p;
         }
         // p is the node need to remove
@@ -257,8 +254,12 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
 
     @Override
     public Iterator<K> iterator() {
-        throw new UnsupportedOperationException();
+        // hashSet has iterator function!!
+        return keySet().iterator();
     }
+
+
+
 
     public static void main(String[] args) {
         BSTMap<String, Integer> bstmap = new BSTMap<>();
