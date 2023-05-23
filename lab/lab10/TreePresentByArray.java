@@ -65,6 +65,11 @@ public class TreePresentByArray<K> {
         return i;
     }
 
+    public boolean contain(K key) {
+        return getKeyIndex(key) != -1;
+    }
+
+
 
 
 
