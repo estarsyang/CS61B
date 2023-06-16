@@ -3,9 +3,9 @@ public class Paths {
 
     }
     boolean hasPathTo(int v){ // is there a path from s to v
-
+        return false;
     }
     Iterable<Integer> pathTo(int v){ // path from s to v
-
+        return null;
     }
 }

@@ -21,23 +21,24 @@ public class GraphRepresent {
         public void addEdge(int v, int w){ // add an edge v-w
 
         }
-        Iterator<Integer> adj(int v){ // vertices adjacent to v
 
+        Iterator<Integer> adj(int v){ // vertices adjacent to v
+            return null;
         }
         int V(){ // number of vertices
-
+            return 0;
         }
         int E(){ // number of edges
-
+            return 0;
         }
 
         /** degree of vertex v in graph G. */
-        public static int degree(Graph G, int v){
-            int degree = 0;
-            for (int w: G.adj(v)) {
-                degree++;
-            }
-            return degree;
-        }
+//        public static int degree(Graph G, int v){
+//            int degree = 0;
+//            for (int w: G.adj(v)) {
+//                degree++;
+//            }
+//            return degree;
+//        }
     }
 }

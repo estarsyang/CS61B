@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -6,21 +8,25 @@ import java.util.List;
  */
 public class Graph {
     private int V;
-    private List<Integer>[] adj;
+    private ArrayList<Integer>[] adjacent;
 
-    public Graph(int V){
-        this.V = V;
-        adj = (List<Integer>[]) new ArrayList[V];
-        for (int v = 0;v < V; v++) {
-            adj[v] = new ArrayList<Integer>();
+    public Graph(int v){
+        this.V = v;
+        adjacent = new ArrayList[V];
+        for (int i = 0;i < V; i++) {
+            adjacent[i] = new ArrayList();
         }
     }
 
+    public int V() {
+        return V;
+    }
+
     public void addEdge(int v, int w) {
-        adj[v].add(w);
-        adj[w].add(v);
+        adjacent[v].add(w);
+        adjacent[w].add(v);
     }
     public Iterable<Integer> adj(int v){
-        return adj[v];
+        return adjacent[v];
     }
 }
